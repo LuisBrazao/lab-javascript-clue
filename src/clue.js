@@ -150,6 +150,7 @@ function selectRandom(array){
     return array[Math.floor(Math.random()*array.length)];
 }
 
+
 function pickMystery(){
     let mystery = {
         suspect: selectRandom(suspectsArray),
@@ -169,4 +170,7 @@ function revealMystery(envelope){
 let envelope = pickMystery();
 let mystery = revealMystery(envelope);
 console.log(mystery);
+
+//comment
+
 
